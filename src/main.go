@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"mymath"
 	"obj"
-	"time"
+	//"time"
 )
 
 type Notifier interface {
@@ -32,14 +32,7 @@ func main() {
 	//start_music()
 	//start_array()
 	//start_map()
-	go start_goruntime()
-	var step int = 0
-	for {
-		time.Sleep(1000 * time.Millisecond)
-		fmt.Println("in main ")
-		step++
-		if step > 10 {
-			break
-		}
-	}
+	start_channel()
+	//time.Sleep(3000 * time.Millisecond)
+
 }
