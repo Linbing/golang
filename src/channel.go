@@ -96,7 +96,7 @@ func t5() {
 	}
 }
 func start_channel() {
-	t1()
+	//t1()
 	//t2()
 	//t3() //cause deaklock!
 	//t4()

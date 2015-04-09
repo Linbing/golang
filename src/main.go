@@ -32,7 +32,8 @@ func main() {
 	//start_music()
 	//start_array()
 	//start_map()
-	start_channel()
+	//start_channel()
 	//time.Sleep(3000 * time.Millisecond)
+	start_select()
 
 }
