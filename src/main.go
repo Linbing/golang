@@ -29,7 +29,7 @@ func main() {
 
 	//notify.Notify()
 	fmt.Printf("-------------------\n")
-	fmt.Printf(" >>   go to music test << \n")
+	//fmt.Printf(" >>   go to music test << \n")
 	//start_music()
 	//start_array()
 	//start_map()
@@ -41,5 +41,7 @@ func main() {
 	//	var host = flag.String("host", "", "host")
 	//	fmt.Println(host)
 	//start_timer()
-	start_socket()
+	//start_socket()
+	//start_exec()
+	start_flag()
 }
