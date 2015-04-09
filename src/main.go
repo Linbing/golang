@@ -5,6 +5,7 @@ import (
 	"mymath"
 	"obj"
 	//"time"
+	//"flag"
 )
 
 type Notifier interface {
@@ -36,6 +37,9 @@ func main() {
 	//time.Sleep(3000 * time.Millisecond)
 	//start_select()
 	//start_goc()
-	start_Waitchannel()
-
+	//start_Waitchannel()
+	//	var host = flag.String("host", "", "host")
+	//	fmt.Println(host)
+	//start_timer()
+	start_socket()
 }
