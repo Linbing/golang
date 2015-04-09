@@ -35,6 +35,7 @@ func main() {
 	//start_channel()
 	//time.Sleep(3000 * time.Millisecond)
 	//start_select()
-	start_goc()
+	//start_goc()
+	start_Waitchannel()
 
 }
