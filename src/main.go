@@ -11,6 +11,9 @@ import (
 type Notifier interface {
 	Notify() error
 }
+type Test struct {
+	name string `test`
+}
 
 //func SendNotification(notify *Notifier) error {
 //	return notify.Notify()
@@ -43,5 +46,15 @@ func main() {
 	//start_timer()
 	//start_socket()
 	//start_exec()
-	start_flag()
+	//start_flag()
+	//start_readfile()
+
+	//str := "lbinbing"
+	//fmt.Println("str: ", str)
+	//by := []byte(str)
+	//by[0] = 'a'
+
+	//fmt.Println("str: ", str)
+	//fmt.Println("by: ", by[0], string(by))
+	start_defer()
 }

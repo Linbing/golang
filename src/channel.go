@@ -9,7 +9,6 @@ func Count(ch chan int) {
 	ch <- 12
 	fmt.Println("counting ")
 }
-
 func t1() {
 	fmt.Println("-----t1---------")
 	//chs := make([]chan int, 10)
